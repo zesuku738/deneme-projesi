@@ -1,7 +1,7 @@
 from rembg import remove
 from PIL import Image
-input_path = 'kalp.png'
-output_path = 'kalp123.png'
+input_path = 'dosya_adi.jpg'
+output_path = 'yeni_dosya_adi.png'
 inp = Image.open(input_path)
 output = remove(inp)
 output.save(output_path)
